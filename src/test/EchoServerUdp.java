@@ -53,7 +53,7 @@ public class EchoServerUdp extends Thread {
                         int rand_int = rand.nextInt(6);
                         buf = frases[rand_int].getBytes();
                         break;
-                    case "tchau":
+                    case "tchau": //
                         buf = "tchau".getBytes();
                         break;
                     default:

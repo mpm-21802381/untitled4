@@ -20,6 +20,7 @@ public class EchoServerThreads {
             System.out.println("nova conexao...");
             Thread t = new Thread(new EchoClientThread(client));
             t.start();
+            System.out.println("oi");
         }
     }//fim main
 
